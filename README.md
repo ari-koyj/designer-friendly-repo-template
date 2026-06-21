@@ -1,6 +1,5 @@
-# design-work — 部署テンプレート（Todo 参照実装）
+# design as code を実現するためのテンプレート
 
-design-as-code を実現する最小構成のテンプレートです。
 UI 層と domain 層を完全に分離し、デザイナーとエンジニアの領域を明確にしている。
 また、next.js は router と UI の役割に限定しており、ビジネスロジックは hono で行う。
 
