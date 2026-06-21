@@ -1,0 +1,48 @@
+{
+  "name": "design-work",
+  "type": "module",
+  "types": ".design-sync/ds-entry.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "bun test app features lib shared",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "e2e": "playwright test",
+    "e2e:install": "playwright install"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.8.0",
+    "@libsql/client": "^0.17.4",
+    "@tanstack/react-query": "^5.101.0",
+    "drizzle-orm": "^0.45.2",
+    "drizzle-zod": "^0.8.3",
+    "hono": "^4.12.26",
+    "next": "^16.2.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.61.0",
+    "@storybook/nextjs-vite": "^10.4.6",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/bun": "^1.3.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.4",
+    "storybook": "^10.4.6",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^5",
+    "vite": "^8.0.16"
+  }
+}

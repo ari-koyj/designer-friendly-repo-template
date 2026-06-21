@@ -1,0 +1,11 @@
+{
+  "projectId": "8657a7bf-59bc-4c68-83bf-ef88c7813c2b",
+  "shape": "storybook",
+  "pkg": "design-work",
+  "globalName": "DesignWork",
+  "storybookConfigDir": ".storybook",
+  "storybookStatic": ".design-sync/sb-reference",
+  "tsconfig": "tsconfig.json",
+  "entry": ".design-sync/ds-entry.ts",
+  "buildCmd": "npx storybook build -c .storybook -o .design-sync/sb-reference"
+}

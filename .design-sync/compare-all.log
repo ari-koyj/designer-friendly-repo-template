@@ -1,0 +1,9 @@
+↻ [COMPARE] Button: sources unchanged & fully graded — carried forward (--force to recapture)
+○ [COMPARE] Checkbox: 2 needs-grade — grade keys: "Unchecked", "Checked"
+○ [COMPARE] TextInput: 2 needs-grade — grade keys: "Empty", "With Value"
+○ [COMPARE] TodoForm: 2 needs-grade — grade keys: "Default", "Disabled"
+○ [COMPARE] TodoItem: 2 needs-grade — grade keys: "Active", "Completed"
+○ [COMPARE] TodoList: 2 needs-grade — grade keys: "With Todos", "Empty"
+
+compare: 6 component(s) — 1 carried forward unchanged, 5 captured, 0 with factual failures, 5 awaiting your grade
+Grade from the true images: Read each _screenshots/compare/<group>__<Name>.png sheet (raw/ PNGs are the full-res authority), then Write the verdicts to .design-sync/.cache/compare/<Name>.grade.json (a recapture clears the old grade — its contract changed).

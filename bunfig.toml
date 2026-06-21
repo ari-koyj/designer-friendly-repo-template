@@ -1,0 +1,3 @@
+[test]
+# テスト開始前に DB を専用ファイルへ向け、マイグレーションを適用する。
+preload = ["./test-utils/setup.ts"]
