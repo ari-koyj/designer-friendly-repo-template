@@ -7,5 +7,6 @@
   "storybookStatic": ".design-sync/sb-reference",
   "tsconfig": "tsconfig.json",
   "entry": ".design-sync/ds-entry.ts",
-  "buildCmd": "npx storybook build -c .storybook -o .design-sync/sb-reference"
+  "buildCmd": "npx storybook build -c .storybook -o .design-sync/sb-reference",
+  "readmeHeader": ".design-sync/conventions.md"
 }

@@ -4,8 +4,8 @@
   _ds_sync.json: 6 render hash(es), anchor matches the bundle
   _ds_sync.json render hashes match disk (6 recomputed)
   styles.css: 1 @import(s), all resolve
-  _ds_bundle.css: 14 KB
-  tokens: 67 defined, 32 referenced
+  _ds_bundle.css: 8 KB
+  tokens: 27 defined, 23 referenced
   components/: 6 previews, 6 .prompt.md
   all .d.ts parse cleanly
   window.DesignWork: 6 exports (6 fn + 0 compound)
