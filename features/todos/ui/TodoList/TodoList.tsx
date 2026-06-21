@@ -1,4 +1,4 @@
-import { TodoItem } from '@/features/todos/ui/TodoItem'
+import { TodoItem } from '@/features/todos/ui/TodoItem/TodoItem'
 import type { Todo } from '@/lib/db/schema'
 
 export type TodoListProps = {

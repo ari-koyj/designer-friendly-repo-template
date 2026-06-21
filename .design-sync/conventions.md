@@ -22,14 +22,14 @@ Design tokens (CSS variables, always available via `var(--…)`):
 
 | Token | Value | Utility that ships |
 |---|---|---|
-| `--color-surface` | `#ffffff` | `bg-surface` |
-| `--color-surface-muted` | `#f4f4f5` | `bg-surface-muted` |
-| `--color-border` | `#e4e4e7` | `border-border` (with `border`) |
-| `--color-foreground` | `#18181b` | `text-foreground` |
-| `--color-foreground-muted` | `#71717a` | `text-foreground-muted` |
-| `--color-primary` | `#4f46e5` | `bg-primary`, `text-primary`, `accent-primary` |
-| `--color-primary-foreground` | `#ffffff` | `text-primary-foreground` |
-| `--color-danger` | `#dc2626` | `bg-danger` |
+| `--color-surface` | `#06100f` | `bg-surface` |
+| `--color-surface-muted` | `#0e1c1a` | `bg-surface-muted` |
+| `--color-border` | `#1d322f` | `border-border` (with `border`) |
+| `--color-foreground` | `#e3fff7` | `text-foreground` |
+| `--color-foreground-muted` | `#76a39a` | `text-foreground-muted` |
+| `--color-primary` | `#00ffc6` | `bg-primary`, `text-primary`, `accent-primary` |
+| `--color-primary-foreground` | `#03130f` | `text-primary-foreground` |
+| `--color-danger` | `#ff5a52` | `bg-danger` |
 | `--radius-control` | `0.5rem` | `rounded-control` |
 | `--spacing-control` | `0.625rem` | `py-control` |
 

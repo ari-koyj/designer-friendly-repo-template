@@ -1,18 +1,18 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /*
  * デザイントークン（design-as-code の単一の真実）
  * UI 層では原則ここで定義したトークン由来のユーティリティのみを使う。
  */
 @theme {
-  --color-surface: #ffffff;
-  --color-surface-muted: #f4f4f5;
-  --color-border: #e4e4e7;
-  --color-foreground: #18181b;
-  --color-foreground-muted: #71717a;
-  --color-primary: #4f46e5;
-  --color-primary-foreground: #ffffff;
-  --color-danger: #dc2626;
+  --color-surface: #06100f;
+  --color-surface-muted: #0e1c1a;
+  --color-border: #1d322f;
+  --color-foreground: #e3fff7;
+  --color-foreground-muted: #76a39a;
+  --color-primary: #00ffc6;
+  --color-primary-foreground: #03130f;
+  --color-danger: #ff5a52;
 
   --radius-card: 0.75rem;
   --radius-control: 0.5rem;
