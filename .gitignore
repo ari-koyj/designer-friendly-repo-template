@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# project docs (override ~/.gitignore_global which ignores README.md)
+!README.md
+
 # dependencies
 /node_modules
 /.pnp
