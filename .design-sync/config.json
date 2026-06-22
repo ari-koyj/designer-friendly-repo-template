@@ -1,0 +1,19 @@
+{
+  "projectId": "01fabcd3-70aa-4a79-85e3-f12808ee1002",
+  "shape": "storybook",
+  "pkg": "design-work",
+  "globalName": "DesignWork",
+  "storybookConfigDir": ".storybook",
+  "storybookStatic": ".design-sync/sb-reference",
+  "tsconfig": "tsconfig.json",
+  "entry": ".design-sync/ds-entry.ts",
+  "buildCmd": "npx storybook build -c .storybook -o .design-sync/sb-reference",
+  "titleMap": {
+    "Todo": "TodoPageView"
+  },
+  "overrides": {
+    "MatterDetail": { "cardMode": "column" },
+    "MatterList": { "cardMode": "column" }
+  },
+  "readmeHeader": ".design-sync/conventions.md"
+}

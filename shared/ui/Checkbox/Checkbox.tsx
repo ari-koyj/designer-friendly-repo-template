@@ -1,0 +1,16 @@
+import type { InputHTMLAttributes } from 'react'
+
+export type CheckboxProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'type'>
+
+/**
+ * 純粋な UI の atom。チェック状態は props（checked/onChange）で制御する。
+ */
+export function Checkbox({ className = '', ...props }: CheckboxProps) {
+  return (
+    <input
+      type="checkbox"
+      className={`size-4 cursor-pointer rounded-[--radius-control-sm] border-border text-primary accent-primary ${className}`}
+      {...props}
+    />
+  )
+}

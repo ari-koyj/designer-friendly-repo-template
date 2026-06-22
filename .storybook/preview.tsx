@@ -17,14 +17,14 @@ const preview: Preview = {
     backgrounds: {
       default: 'surface-muted',
       values: [
-        { name: 'surface-muted', value: '#0e1c1a' },
-        { name: 'surface', value: '#06100f' }
+        { name: 'surface-muted', value: '#f2f1ec' },
+        { name: 'surface', value: '#ffffff' }
       ]
     }
   },
   decorators: [
     (Story) => (
-      <div className="min-h-screen bg-surface-muted p-6 text-foreground antialiased">
+      <div className="min-h-screen bg-surface-muted p-6 text-foreground-muted antialiased">
         <Story />
       </div>
     )

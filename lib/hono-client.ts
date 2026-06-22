@@ -14,3 +14,4 @@ const baseUrl =
 export const client = hc<AppType>(baseUrl)
 
 export const todosApi = client.api.todos
+export const mattersApi = client.api.matters

@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+/*
+ * デザイントークン（design-as-code の単一の真実）
+ * Wine & Beige テーマ — Matter Management システム用
+ */
+@theme {
+  --color-primary: #690a08;
+  --color-primary-hover: #7b1c1a;
+  --color-primary-active: #550000;
+  --color-primary-light: #b48483;
+  --color-primary-subtle: #f0eae6;
+  --color-primary-subtler: #f5f2f0;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f2f1ec;
+  --color-surface-fill: #f6f3ee;
+
+  --color-border: #c6bdbd;
+  --color-border-light: #d9d7d7;
+  --color-border-lighter: #ebe7e7;
+
+  --color-foreground: #1c1c1c;
+  --color-foreground-muted: #433e3b;
+  --color-foreground-subtle: #8c8884;
+  --color-foreground-placeholder: #ada9a5;
+  --color-foreground-disabled: #cfcdcc;
+
+  --color-sidebar: #303030;
+  --color-sidebar-hover: #212120;
+
+  --color-error: #b62613;
+  --color-success: #67c23a;
+  --color-warning: #e6a23c;
+
+  --radius-control: 4px;
+  --radius-control-sm: 2px;
+  --radius-card: 6px;
+
+  --spacing-control: 32px;
+  --spacing-control-sm: 28px;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-pop: 0 6px 24px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
+
+  --font-sans: var(--font-noto-sans-jp, "Noto Sans JP"), var(--font-inter, "Inter"), -apple-system, sans-serif;
+}
